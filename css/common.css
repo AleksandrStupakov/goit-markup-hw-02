@@ -1,0 +1,74 @@
+:root {
+  --white-text: rgba(255, 255, 255, 1);
+  --blue: rgba(33, 150, 243, 1);
+  --grey-text: rgba(117, 117, 117, 1);
+  --grey-light-background: rgba(245, 244, 250, 1);
+  --grey-light-op60: rgba(255, 255, 255, 0.6);
+  --black-background: rgba(47, 48, 58, 1);
+  --grey-background: #f5f4fa;
+}
+
+header,
+section,
+footer {
+  border: 1px solid;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.header {
+  background-color: #ffffff;
+}
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+}
+
+.list {
+  list-style: none;
+  font-weight: 500;
+}
+
+.logo-header {
+  color: #000000;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus,
+.logo:hover,
+.nav-blue {
+  color: var(--blue);
+}
+
+.site-nav .link.current {
+  color: var(--blue);
+}
+
+.nav-grey {
+  color: var(--grey-text);
+}
+
+.logo-footer {
+  color: #ffffff;
+}
+
+.small-title {
+  width: 700;
+}
+
+.address {
+  color: var(--white-text);
+  width: 400;
+}
+
+.kontakts-down {
+  color: var(--grey-light-op60);
+  width: 400;
+}
+
+.down {
+  background-color: var(--black-background);
+}

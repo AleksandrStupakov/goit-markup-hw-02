@@ -1,0 +1,19 @@
+.hidden {
+  visibility: hidden;
+}
+
+.all {
+  color: var(--white-text);
+  width: 500;
+  background-color: var(--blue);
+}
+
+.button-name {
+  width: 500;
+  background-color: var(--grey-background);
+}
+
+.work {
+  color: var(--grey-text);
+  width: 400;
+}

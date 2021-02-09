@@ -1,0 +1,24 @@
+/* Секция Hero  */
+.title {
+  color: var(--white-text);
+  width: 900;
+}
+
+.title-button {
+  color: var(--white-text);
+  width: 700;
+  background-color: var(--blue);
+}
+
+.hero {
+  background-color: var(--black-background);
+}
+
+.best {
+  color: var(--grey-text);
+  width: 400;
+}
+
+.name {
+  width: 500;
+}
