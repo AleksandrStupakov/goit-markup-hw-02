@@ -4,16 +4,30 @@
 
 .all {
   color: var(--white-text);
-  width: 500;
+  font-weight: 500;
   background-color: var(--blue);
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
 }
 
 .button-name {
-  width: 500;
+  font-weight: 500;
   background-color: var(--grey-background);
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+}
+
+.project-title {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
 }
 
 .work {
   color: var(--grey-text);
-  width: 400;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
 }
