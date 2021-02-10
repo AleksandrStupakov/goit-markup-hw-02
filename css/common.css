@@ -6,6 +6,8 @@
   --grey-light-op60: rgba(255, 255, 255, 0.6);
   --black-background: rgba(47, 48, 58, 1);
   --grey-background: #f5f4fa;
+  --blue-logo: #2196f3;
+  --black-text: #000000;
 }
 
 header,
@@ -28,6 +30,7 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+  color: var(--blue-logo);
 }
 
 .list {
@@ -35,12 +38,15 @@ body {
   font-weight: 500;
 }
 
-.logo-header {
-  color: #000000;
+.logo-header,
+.link {
+  color: var(--black-text);
 }
 
 .site-nav .link:hover,
 .site-nav .link:focus,
+.site-nav .link-nav:hover,
+.site-nav .link-nav:focus,
 .logo:hover {
   color: var(--blue);
 }
@@ -50,19 +56,21 @@ body {
   color: var(--blue);
 }
 
-.link {
+.link,
+.link-nav {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
 
-.site-nav .link.current {
-  color: var(--blue);
+.link-nav {
+  color: var(--grey-text);
 }
 
-.nav-grey {
-  color: var(--grey-text);
+.site-nav .link.current,
+.site-nav .link-nav.current {
+  color: var(--blue);
 }
 
 button {
